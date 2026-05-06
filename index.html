@@ -41,6 +41,26 @@
         }
 
         body {
+    overflow: hidden;
+}
+
+.page {
+    overflow: hidden;
+}
+
+/* ONLY gallery scroll করবে */
+#gallery-page {
+    background: #050505;
+    overflow-y: auto;
+    height: 100vh;
+    display: block;
+    padding: 100px 20px;
+    position: relative;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+        body {
             font-family: 'Montserrat', sans-serif;
             color: white;
             perspective: 1000px;
